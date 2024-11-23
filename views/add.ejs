@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tambah Rumah Sakit</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Edit Alamat Rumah Sakit</h1>
+        <form action="/add" method="POST" enctype="multipart/form-data">
+            <label for="Nama">Nama Rumah Sakit:</label>
+            <input type="text" name="Nama" required><br>
+            <label for="Alamat">Alamat:</label>
+            <textarea name="Alamat" required></textarea><br>
+            <label for="foto">Foto:</label>
+            <input type="file" name="foto"><br>
+            <label for="No_Telepon">No Telepon:</label>
+            <input type="text" name="No_Telepon" required><br>
+            <button type="submit">Add Rumah Sakit</button>
+        </form>
+        <div class="center-button">
+            <a href="/" class="button">Back to List</a>
+        </div>
+    </div>
+</body>
+</html>
